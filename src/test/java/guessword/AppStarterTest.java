@@ -143,7 +143,7 @@ public class AppStarterTest {
         // When
         app.updateDisplayCharacters(indexesFound, displayCharacters, guessedChar);
 
-        // Then *pp***
+        // Then *****
         assertEquals('*', displayCharacters[0]);
         assertEquals('*', displayCharacters[1]);
         assertEquals('*', displayCharacters[2]);
@@ -156,8 +156,8 @@ public class AppStarterTest {
         // Max lives are 8, and the word too long for guessing 8 time.
         String theWord = "thewordtoolongforguessing";
         final int MAX_LIVES = 5;
-        // Dependency Injection
         inputHandler = new AutomaticInput();
+
         assertFalse(app.startTheGame(theWord, inputHandler, MAX_LIVES));
     }
 
@@ -174,7 +174,7 @@ public class AppStarterTest {
 
     @Test
     public void shouldReturnTrue_WhenGuessingApple_HardInput() throws IOException {
-        // Given  Dependency Injection AutomaticInput
+        // Given  Dependency Injection HardInput
         String theWord = "apple";
         final int MAX_LIVES = 30;
 

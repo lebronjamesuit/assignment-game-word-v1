@@ -1,7 +1,6 @@
 # assignment-guess-word-v1
 
 -  I haven't fully grasped the tangible benefits of SOLID principles in the context of this assignment just yet. 
-Perhaps we can discuss further details.
 
 - Additionally, I have another case study related to SOLID principles in a different repository that might be of interest to you
 
